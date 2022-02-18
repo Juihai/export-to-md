@@ -1,0 +1,15 @@
+
+
+db:
+  driver: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://localhost:3306/bmd_pay_gateway?useSSL=true&verifyServerCertificate=false&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=CONVERT_TO_NULL&allowMultiQueries=true
+  username: root
+  password: admin123
+  # 文件名
+  filename:
+    - bmd_pay_gateway
+
+
+export:
+  # 文件夹
+  dir: /Users/shenruihai/hub_projects/export-to-md/docs/
