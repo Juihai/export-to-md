@@ -14,7 +14,7 @@ db:
   driver: com.mysql.cj.jdbc.Driver
   url: jdbc:mysql://localhost:3306/test?useSSL=true&verifyServerCertificate=false&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=CONVERT_TO_NULL&allowMultiQueries=true
   username: root
-  password: 123456
+  password: admin123
   # 数据库名
   database:
     - test
